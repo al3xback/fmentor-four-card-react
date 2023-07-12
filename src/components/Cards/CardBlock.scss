@@ -3,9 +3,9 @@
 @use '../../assets/scss/abstracts/mixins' as mix;
 
 .card__list-block {
-    @include mix.flexbox;
+	@include mix.flexbox;
 	@include mix.flex-direction(column);
-    gap: func.em(24, var.$font-size-primary);
+	gap: func.em(24, var.$font-size-primary);
 }
 
 @media (min-width: 48em) {

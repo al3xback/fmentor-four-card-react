@@ -3,8 +3,8 @@
 @use '../../assets/scss/abstracts/mixins' as mix;
 
 .card__list-item {
-    position: relative;
-    @include mix.flexbox;
+	position: relative;
+	@include mix.flexbox;
 	@include mix.flex-direction(column);
 	min-height: func.em(220, var.$font-size-primary);
 	padding: func.em(24, var.$font-size-primary);

@@ -13,7 +13,7 @@
 }
 
 .section__head {
-    @include mix.flexbox;
+	@include mix.flexbox;
 	@include mix.flex-direction(column);
 	padding-top: func.em(40, var.$font-size-primary);
 	margin-bottom: func.em(76, var.$font-size-primary);
@@ -32,7 +32,7 @@
 }
 
 @media (min-width: 48em) {
-    .section {
+	.section {
 		max-width: func.em(1110, var.$font-size-primary);
 	}
 
