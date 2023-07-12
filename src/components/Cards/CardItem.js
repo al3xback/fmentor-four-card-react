@@ -1,3 +1,5 @@
+import './CardItem.scss';
+
 const CardItem = (props) => {
 	const cardItemClasses = `card__list-item card__list-item--${props.id}`;
 

@@ -1,0 +1,16 @@
+@use '../../assets/scss/abstracts/variables' as var;
+@use '../../assets/scss/abstracts/functions' as func;
+@use '../../assets/scss/abstracts/mixins' as mix;
+
+.card__list-block {
+    @include mix.flexbox;
+	@include mix.flex-direction(column);
+    gap: func.em(24, var.$font-size-primary);
+}
+
+@media (min-width: 48em) {
+	.card__list-block {
+		@include mix.justify-content(center);
+		@include mix.flex(1);
+	}
+}

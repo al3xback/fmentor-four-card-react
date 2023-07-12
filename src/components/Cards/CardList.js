@@ -1,8 +1,10 @@
+import CardBlock from './CardBlock';
+
 import supervisorImage from '../../assets/images/icons/supervisor.svg';
 import teamBuilderImage from '../../assets/images/icons/team-builder.svg';
 import karmaImage from '../../assets/images/icons/karma.svg';
 import calculatorImage from '../../assets/images/icons/supervisor.svg';
-import CardBlock from './CardBlock';
+import './CardList.scss';
 
 const cards = [
 	{

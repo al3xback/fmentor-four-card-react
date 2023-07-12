@@ -1,5 +1,7 @@
 import CardItem from './CardItem';
 
+import './CardBlock.scss';
+
 const CardBlock = (props) => {
 	return (
 		<div className="card__list-block">
