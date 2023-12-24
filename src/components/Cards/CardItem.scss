@@ -1,19 +1,16 @@
 @use '../../assets/scss/abstracts/variables' as var;
 @use '../../assets/scss/abstracts/functions' as func;
-@use '../../assets/scss/abstracts/mixins' as mix;
 
 .card__list-item {
 	position: relative;
-	@include mix.flexbox;
-	@include mix.flex-direction(column);
+	display: flex;
+	flex-direction: column;
 	min-height: func.em(220, var.$font-size-primary);
 	padding: func.em(24, var.$font-size-primary);
 	background-color: var.$color-white;
-	@include mix.border-radius(8px);
-	@include mix.box-shadow(
-		0px func.em(15, var.$font-size-primary)
-			func.em(20, var.$font-size-primary) 0 rgba(0, 0, 0, 0.1)
-	);
+	border-radius: 8px;
+	box-shadow: 0px func.em(15, var.$font-size-primary)
+		func.em(20, var.$font-size-primary) 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 }
 
@@ -52,8 +49,8 @@
 }
 
 .card__image {
-	@include mix.flexbox;
-	@include mix.justify-content(flex-end);
+	display: flex;
+	justify-content: flex-end;
 	margin-top: auto;
 }
 
