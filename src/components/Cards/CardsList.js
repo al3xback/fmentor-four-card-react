@@ -4,7 +4,7 @@ import supervisorImage from '../../assets/images/icons/supervisor.svg';
 import teamBuilderImage from '../../assets/images/icons/team-builder.svg';
 import karmaImage from '../../assets/images/icons/karma.svg';
 import calculatorImage from '../../assets/images/icons/supervisor.svg';
-import './CardList.scss';
+import './CardsList.scss';
 
 const cards = [
 	{
@@ -48,9 +48,9 @@ const cards = [
 	},
 ];
 
-const CardList = () => {
+const CardsList = () => {
 	return (
-		<div className="card__list">
+		<div className="cards">
 			{cards.map((card) => (
 				<CardBlock key={card.id} items={card.items} />
 			))}
@@ -58,4 +58,4 @@ const CardList = () => {
 	);
 };
 
-export default CardList;
+export default CardsList;

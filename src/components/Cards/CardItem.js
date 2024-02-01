@@ -1,7 +1,7 @@
 import './CardItem.scss';
 
 const CardItem = (props) => {
-	const cardItemClasses = `card__list-item card__list-item--${props.id}`;
+	const cardItemClasses = `card card--${props.id}`;
 
 	return (
 		<div className={cardItemClasses}>

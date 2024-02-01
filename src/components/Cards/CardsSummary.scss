@@ -1,0 +1,34 @@
+@use '../../assets/scss/abstracts/variables' as var;
+@use '../../assets/scss/abstracts/functions' as func;
+
+.cards-summary {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.cards-summary__title {
+	font-weight: var.$font-weight-200;
+}
+
+.cards-summary__subtitle {
+	margin-bottom: func.em(16, 24);
+	font-size: func.em(24, var.$font-size-primary);
+	color: var.$color-dark-blue;
+	line-height: 1.25;
+}
+
+@media (min-width: 48em) {
+	.cards-summary {
+		max-width: func.em(540, var.$font-size-primary);
+	}
+
+	.cards-summary__title,
+	.cards-summary__subtitle {
+		font-size: func.em(36, var.$font-size-primary);
+	}
+
+	.cards-summary__subtitle {
+		margin-bottom: func.em(16, 36);
+	}
+}

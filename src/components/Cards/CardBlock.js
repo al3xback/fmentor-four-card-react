@@ -4,7 +4,7 @@ import './CardBlock.scss';
 
 const CardBlock = (props) => {
 	return (
-		<div className="card__list-block">
+		<div className="cards__block">
 			{props.items.map((item) => (
 				<CardItem
 					key={item.id}
