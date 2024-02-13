@@ -7,8 +7,9 @@
 	gap: func.em(24, var.$font-size-primary);
 }
 
-@media (min-width: 48em) {
+@media (min-width: 57.5em) {
 	.cards {
 		flex-direction: row;
+		gap: func.em(30, var.$font-size-primary);
 	}
 }

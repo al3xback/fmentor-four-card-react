@@ -5,9 +5,9 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	gap: func.em(8);
+	gap: func.em(10, var.$font-size-primary);
 	min-height: func.em(220, var.$font-size-primary);
-	padding: func.em(24, var.$font-size-primary);
+	padding: func.em(28, var.$font-size-primary);
 	background-color: var.$color-white;
 	border-radius: 8px;
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
