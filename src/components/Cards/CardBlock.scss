@@ -9,11 +9,8 @@
 
 @media (min-width: 57.5em) {
 	.cards__block {
-		gap: func.em(30, var.$font-size-primary);
-	}
-
-	.cards__block {
 		justify-content: center;
 		flex: 1;
+		gap: func.em(30, var.$font-size-primary);
 	}
 }
